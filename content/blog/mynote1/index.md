@@ -9,7 +9,7 @@ description: "처음 글 쓰네요~"
 > salted duck eggs have a briny aroma, a gelatin-like egg white and a
 > firm-textured, round yolk that is bright orange-red in color.
 
-![Chinese Salty Egg](./snowman.png)
+![Snow](./snowman.png)
 
 You can also write code blocks here!
 
