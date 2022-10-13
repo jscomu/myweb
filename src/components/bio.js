@@ -46,8 +46,8 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            나의SNS
+          <a href="https://twitter.com/">
+            나의 twitter
           </a>
         </p>
       )}
