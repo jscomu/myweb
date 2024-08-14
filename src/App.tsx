@@ -2,13 +2,25 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
+const App:React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={process.env.PUBLIC_URL + "/img/ice.png"} />
-        <p>안녕하세요. 리액트 시작합니다. 반갑습니다.</p>
+    <div className="container">
+      <header>
+        <p>타이틀</p>
+        <div>
+          <ul>
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
+          </ul>
+        </div>
       </header>
+      <section id="st1">
+        <p>아름다운 바다</p>
+        <img src={process.env.PUBLIC_URL + '/img/ice.png'} />
+      </section>
+      <section id="st2"></section>
+      <section id="st3"></section>
     </div>
   );
 }
