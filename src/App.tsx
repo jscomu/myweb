@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={process.env.PUBLIC_URL + "/img/ice.png"} />
-        <p>안녕하세요. 리액트 시작합니다.</p>
+        <p>안녕하세요. 리액트 ..시작합니다.</p>
       </header>
     </div>
   );
