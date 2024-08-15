@@ -7,7 +7,7 @@ const App:React.FC = () => {
   return (
     <div className="container">
       <header>
-        <p>타이틀</p>
+        <p><span className="txt1">앱개발</span> 공장</p>
         <div>
           <ul>
             <li><a href="#">소개</a></li>
